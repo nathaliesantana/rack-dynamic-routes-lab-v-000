@@ -10,13 +10,13 @@ class Application
       if @@items.include? item
         resp.write "**price here**"
       else
-        resp.write "Item not found"
-        resp.status = 404
+        resp.status = 400
+        resp.write "Item not found"  
       end
-      
+
     else
-      resp.write "Route not found"
       resp.status = 404
+      resp.write "Route not found"
     end
 
     resp.finish
