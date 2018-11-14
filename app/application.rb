@@ -1,4 +1,4 @@
-requeri 'pry'
+require 'pry'
 class Application
 
   @@items= [ ]
