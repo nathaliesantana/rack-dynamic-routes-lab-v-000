@@ -1,3 +1,4 @@
+requeri 'pry'
 class Application
 
   @@items= [ ]
