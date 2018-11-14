@@ -1,5 +1,5 @@
 require 'bundler/setup'
-require 'rails'
+require 'rails c'
 Bundler.require
 
 require_relative "../app/item.rb"
